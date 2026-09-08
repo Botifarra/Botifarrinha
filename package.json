@@ -1,0 +1,20 @@
+{
+  "name": "botifarra",
+  "version": "1.0.0",
+  "description": "Botifarra — Bot de WhatsApp con moderación de grupo (Baileys)",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "node scripts/patch-baileys-jimp.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.23",
+    "dotenv": "^16.4.5",
+    "jimp": "^1.6.0",
+    "msedge-tts": "^2.0.6",
+    "node-webpmux": "^3.1.7",
+    "pino": "^9.3.2",
+    "truecallerjs": "^2.2.0"
+  }
+}
